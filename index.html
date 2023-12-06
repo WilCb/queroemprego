@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QueroEmprego</title>
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body class="bg-body">
+    <!-- Cabeçalho -->
+    <header class="container-fluid bg-logo px-5">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h1><img class="img-fluid" src="./assets/img/logopreto.png" alt="">
+                </a></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                                aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                                href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                                href="#vagas">Vagas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                                href="#">Contato</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <span class="text-light">
+                            Contato (82) 9 9999-9999
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="container py-2">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-none img-fluid d-none d-lg-block" src="./assets/img/bannerDesktop1.png" alt="">
+                    <img class="d-none d-lg-none img-fluid d-none d-md-block" src="./assets/img/tablet/1.png" alt="">
+                    <img class="d-block d-lg-none img-fluid d-md-none" src="./assets/img/mobile/1.png" alt="">
+                    <div class="carousel-caption d-none d-md-block position-slide1">
+                        <h5 class="d-none d-md-block titulo-banner-desktop">Desperte seu Potencial Profissional Conosco:</h5>
+                        <p class="d-none d-md-block texto-banner">Onde Oportunidades Transformadoras Encontram Grandes Talentos</p>
+                        <div class="btn-position d-none d-lg-block">
+                            <a href="#">
+                                <button type="button" class="btn btn-success">
+                                    <i class="bi bi-whatsapp"></i>
+                                </button>
+                            </a>
+                            <a href="#">
+                                <button type="button" class="btn btn-primary">
+                                    <i class="bi bi-instagram"></i>
+                                </button>
+                            </a>
+                            <a href="#">
+                                <button type="button" class="btn btn-secondary">
+                                    <i class="bi bi-twitter-x"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-none img-fluid d-none d-lg-block" src="./assets/img/bannerDesktop2.png"
+                        alt="Homem de tom de pele branca com casaco na cor cinza sentado em uma cadeira de escritorio mexendo em um notebook na cor preta em cima de uma mesa de escritorio branca com um celular preto, um óculos e uma agenda também em cima da mesa">
+                        <img class="d-none d-lg-none img-fluid d-none d-md-block" src="./assets/img/tablet/2.png" alt="Homem de tom de pele branca com casaco na cor cinza sentado em uma cadeira de escritorio mexendo em um notebook na cor preta em cima de uma mesa de escritorio branca com um celular preto, um óculos e uma agenda também em cima da mesa">
+                    <div class="carousel-caption d-none d-md-block position">
+                        <h5 class="titulo-banner">Oportunidades de HomeOffice:</h5>
+                        <p class="texto-banner">Faça seu horário e trabalhe do conforto de sua casa</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-none img-fluid d-none d-lg-block" src="./assets/img/bannerDesktop3.png" alt="">
+                    <img class="d-none d-lg-none img-fluid d-none d-md-block" src="./assets/img/tablet/3.png" alt="">
+                    <div class="carousel-caption d-none d-md-block position">
+                        <h5 class="titulo-banner">Oportunidades presencial</h5>
+                        <p class="texto-banner">Em diversas áreas, não perca tempo e garanta já seu emprego</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sobre nós -->
+    <div id="sobre" class="pb-5">
+        <div class="container-fluid d-flex flex-column gap-5 p-5 sobre">
+            <h2 class="text-center titulo-sobre">Sobre nós</h2>
+            <div class="container">
+                <p class="text-center">Bem-vindo ao <strong>QueroEmprego</strong>, seu parceiro dedicado na busca por
+                    oportunidades profissionais significativas. <strong>Desde 05/12/2023</strong>, temos trabalhado
+                    incansavelmente para conectar talentos excepcionais a oportunidades de carreira que transformam
+                    vidas.</p>
+            </div>
+            <h3 class="fw-bold text-center cor-vinho">Por que somos diferentes?</h3>
+            <ul class="lista-diferente text-center d-flex flex-column gap-2">
+                <li class="fw-bold cor-vinho">Foco no Indivíduo:</li>
+                <p>Reconhecemos a singularidade de cada candidato, adaptando nossos serviços para atender às suas
+                    aspirações e necessidades específicas.</p>
+                <li class="fw-bold cor-vinho">Rede de Parcerias:</li>
+                <p>Mantemos colaborações sólidas com empresas inovadoras, proporcionando acesso a uma variedade de
+                    oportunidades empolgantes.</p>
+                <li class="fw-bold cor-vinho">Suporte Contínuo:</li>
+                <p>Nosso compromisso não termina com a colocação. Oferecemos orientação e suporte ao longo de sua
+                    jornada profissional.</p>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Sobre nós parte 2 -->
+    <div class="pb-5">
+        <div class="container-fluid gap-4 d-flex flex-column text-center p-5 sobre">
+            <h3 class="fw-md-bold fs-3 cor-vinho">Descubra Sua Próxima Oportunidade Profissional Conosco!</h3>
+            <div class="container">
+                <p>Explore nossos serviços e conecte-se a oportunidades que impulsionarão sua carreira para novos
+                    horizontes. Clique abaixo para começar a jornada para o seu futuro profissional promissor!</p>
+            </div>
+            <a href="#vagas">
+                <button type="button" class="btn btn-primary">Explore Agora</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Vagas -->
+    <section id="vagas" class="container-vagas py-5 my-5">
+        <h2 class="fw-bold cor-vinho text-center mb-5">Vagas Disponíveis</h2>
+        <div class="cards-vagas d-flex flex-wrap align-items-center justify-content-around gap-5">
+            <div class="card-vaga d-flex flex-column gap-3">
+                <img src="./assets/img/RH.png" alt="">
+                <div class="px-2">
+                    <h2>Assistente de Recursos Humanos</h2>
+                    <h3>Descrição da Vaga:</h3>
+                    <div class="descricao">
+                        <span>Buscamos um Assistente de RH apaixonado por gestão de pessoas. Seja parte integrante de
+                            nossa
+                            equipe, contribuindo para o desenvolvimento e bem-estar de nossos colaboradores.</span>
+                    </div>
+                    <div>
+                        <h3>Requisitos:</h3>
+                        <ul>
+                            <li>Formação em RH ou áreas relacionadas.</li>
+                            <li>Experiência prévia em atividades administrativas de RH.</li>
+                            <li>Conhecimento em processos de recrutamento e seleção.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Benefícios:</h3>
+                        <ul>
+                            <li>Plano de saúde.</li>
+                            <li>Oportunidades de desenvolvimento profissional.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center p-2">
+                    <a href="#">
+                        <button class="btn btn-primary">Candidatar-se</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card-vaga d-flex flex-column gap-3">
+                <img src="./assets/img/ADM.png" alt="">
+                <div class="px-2">
+                    <h2>Assistente Administrativo (ADM)</h2>
+                    <h3>Descrição da Vaga:</h3>
+                    <div class="descricao">
+                        <span>Estamos em busca de um profissional proativo para integrar nossa equipe administrativa. O
+                            Assistente Administrativo será fundamental para a eficiência operacional de nossa
+                            organização.</span>
+                    </div>
+                    <div>
+                        <h3>Requisitos:</h3>
+                        <ul>
+                            <li>Ensino superior completo ou em andamento em Administração.</li>
+                            <li>Habilidade em organização e gestão de tarefas.</li>
+                            <li>Conhecimento em pacote Office.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Benefícios:</h3>
+                        <ul>
+                            <li>Vale-refeição.</li>
+                            <li>Ambiente de trabalho colaborativo.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center p-2">
+                    <a href="#">
+                        <button class="btn btn-primary">Candidatar-se</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card-vaga d-flex flex-column gap-3">
+                <img src="./assets/img/recepcionista.png" alt="">
+                <div class="px-2">
+                    <h2>Recepcionista</h2>
+                    <h3>Descrição da Vaga:</h3>
+                    <div class="descricao">
+                        <span>Procuramos uma Recepcionista calorosa e acolhedora para ser a primeira impressão dos
+                            nossos
+                            visitantes. Se você é comunicativo(a) e adora lidar com pessoas, esta vaga é para
+                            você!</span>
+                    </div>
+                    <div>
+                        <h3>Requisitos:</h3>
+                        <ul>
+                            <li>Boa comunicação e habilidades interpessoais.</li>
+                            <li>Experiência anterior em funções de atendimento.</li>
+                            <li>Conhecimento básico de sistemas de agendamento.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Benefícios:</h3>
+                        <ul>
+                            <li>Plano de carreira.</li>
+                            <li>Treinamento contínuo.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center p-2">
+                    <a href="#">
+                        <button class="btn btn-primary">Candidatar-se</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card-vaga d-flex flex-column gap-3">
+                <img src="./assets/img/assistente financeiro.png" alt="">
+                <div class="px-2">
+                    <h2>Assistente Financeiro</h2>
+                    <h3>Descrição da Vaga:</h3>
+                    <div class="descricao">
+                        <span>Buscamos um Assistente Financeiro dedicado para auxiliar em tarefas contábeis e
+                            financeiras.
+                            Se você é detalhista e possui habilidades analíticas, venha fazer parte da nossa
+                            equipe!</span>
+                    </div>
+                    <div>
+                        <h3>Requisitos:</h3>
+                        <ul>
+                            <li>Formação em Ciências Contábeis, Administração ou áreas afins.</li>
+                            <li>Experiência em atividades financeiras.</li>
+                            <li>Conhecimento em sistemas contábeis.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Benefícios:</h3>
+                        <ul>
+                            <li>Salário competitivo.</li>
+                            <li>Oportunidades de crescimento.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center p-2">
+                    <a href="#">
+                        <button class="btn btn-primary">Candidatar-se</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Equipe -->
+    <div class="pb-5">
+        <div class="bg-cinza d-flex flex-column gap-5 py-5">
+            <h2 class="text-center cor-vinho fw-bold">Equipe de seleção</h2>
+            <div
+                class="container-fluid text-center d-flex align-items-center justify-content-center gap-2 cards-perfil">
+                <div class="card-perfil">
+                    <div class="container">
+                        <img class="img-perfil" src="./assets/img/perfil-1.png" alt="">
+                        <h3 class="cor-vinho">Carolina S. Silva</h3>
+                        <span>Especialista em Recrutamento</span>
+                    </div>
+                </div>
+                <div class="card-perfil">
+                    <div class="container">
+                        <img class="img-perfil" src="./assets/img/perfil-2.png" alt="">
+                        <h3 class="cor-vinho">Felipe</h3>
+                        <span>Especialista em Recrutamento</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid align-items-center text-center bg-logo flex-column flex-md-row d-flex py-5 gap-4">
+        <div>
+            <img src="./assets/img/logopreto.png" alt="">
+        </div>
+        <div>
+            <h3 class="cor-vinho fw-bold fs-5">Nossos Serviços:</h3>
+            <span>Recrutamento e Seleção</span>
+        </div>
+        <div>
+            <h3 class="cor-vinho fw-bold fs-5">Links Úteis:</h3>
+            <div class="d-flex flex-column">
+                <span><a href="#sobre"> <i class="bi bi-arrow-right"></i>Sobre nós</a></span>
+                <span><a href="#"><i class="bi bi-arrow-right"></i>Formulário de Contato</a></span>
+            </div>
+        </div>
+        <div>
+            <h3 class="cor-vinho fw-bold fs-5">Fale Conosco:</h3>
+            <div class="d-flex flex-column">
+                <span><i class="bi bi-geo-alt"></i> - Endereço: Rua Fulano..., Bairro Alguma coisa...</span>
+                <span><i class="bi bi-telephone"></i> - Telefone: (xx) xxxx-xxxx</span>
+                <span><i class="bi bi-envelope"></i> - E-mail: contato@exemplo.com</span>
+            </div>
+        </div>
+        <div>
+            <h3 class="cor-vinho fw-bold fs-5">Siga-nos</h3>
+            <div class="d-flex gap-3">
+                <div>
+                    <a href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

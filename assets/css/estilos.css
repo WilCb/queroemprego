@@ -1,0 +1,180 @@
+:root {
+    --bg-logo: #121011;
+    --fonte-logo: #941e1f;
+    --cor-fonte: #f9f8fa;
+    --bg-faixa: rgb(40, 35, 34, 0.46);
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-body {
+    background-color: var(--fonte-logo);
+}
+
+.bg-logo {
+    background-color: var(--bg-logo);
+}
+
+.titulo-banner {
+    color: var(--cor-fonte);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.texto-banner {
+    color: var(--cor-fonte);
+    font-size: 14px;
+}
+
+.titulo-banner-desktop {
+    color: var(--cor-fonte);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.position-slide1 {
+    position: absolute;
+    top: 30%;
+}
+
+.btn-position {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.position {
+    position: absolute;
+    top: 55%;
+}
+
+.btn-color {
+    background-color: var(--fonte-logo);
+}
+
+/* Sobre nós */
+.sobre {
+    background-color: var(--bg-faixa);
+}
+
+.titulo-sobre {
+    color: var(--fonte-logo);
+    font-size: 16px;
+}
+
+.sobre p {
+    color: var(--cor-fonte);
+    font-weight: 500;
+}
+
+.sobre strong {
+    color: var(--fonte-logo);
+    font-weight: 700;
+}
+
+.lista-diferente {
+    list-style: none;
+}
+
+.lista-diferente li::before {
+    content: "✔️";
+}
+
+.check::before {
+    content: "✔️";
+}
+
+.cor-vinho {
+    color: var(--fonte-logo);
+}
+
+.bg-card {
+    background-color: var(--cor-fonte);
+}
+
+.bg-cinza {
+    background-color: var(--bg-faixa);
+}
+
+/* vagas */
+
+.vagas {
+    width: 400px;
+}
+.container-vagas {
+    background-color: var(--bg-faixa);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-vaga {
+    background-color: var(--cor-fonte);
+    border-radius: 8px;
+    width: 322px;
+}
+.card-vaga img {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.card-vaga h2 {
+    color: var(--fonte-logo);
+    font-size: 22px;
+    font-weight: 700;
+}
+.card-vaga h3 {
+    color: #941e1f;
+    font-size: 18px;
+    font-weight: 600;
+}
+.descricao {
+    border: 1px solid var(--bg-faixa);
+    border-radius: 8px;
+    padding: 20px;
+}
+.card-vaga span {
+    font-size: 16px;
+    font-weight: 500;
+}
+.card-vaga li {
+    font-size: 14px;
+    font-weight: 500;
+}
+.card-vaga ul {
+    border: 1px solid var(--bg-faixa);
+    border-radius: 8px;
+    list-style: none;
+    padding: 20px;
+}
+.card-vaga li::before {
+    content: "✔️";
+}
+
+/* Equipe recrutamento */
+
+.card-perfil img {
+    border-radius: 50%;
+    width: 52px;
+}
+.card-perfil h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Rodapé */
+
+footer {
+}
+footer span {
+    color: var(--cor-fonte);
+    font-size: 12px;
+    list-style: none;
+}
+footer span a {
+    color: var(--cor-fonte);
+    text-decoration: none;
+}
+footer span a:hover {
+    text-decoration: underline;
+}
