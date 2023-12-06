@@ -32,6 +32,16 @@
     font-size: 20px;
     font-weight: 700;
 }
+.titulo-banner-mobile {
+    color: var(--cor-fonte);
+    font-size: 12px;
+    font-weight: 500;
+}
+.subtitulo-banner-mobile {
+    color: var(--cor-fonte);
+    font-size: 10px;
+    font-weight: 300;
+}
 
 .position-slide1 {
     position: absolute;
