@@ -19,6 +19,7 @@ O site foi criado para atender às demandas específicas da turma, oferecendo um
 
 * HTML: Estrutura e marcação do site.
 * CSS: Estilização e design responsivo.
+* Bootstrap: Framework CSS para criar um design moderno e responsivo de forma eficiente.
 
 ## Objetivo
 
